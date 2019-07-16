@@ -1,0 +1,12 @@
+version: '3'
+services:
+  coti-exchange-app:
+    image: exchangeapp/exchangeapp:latest
+    ports:
+      - "1337:1337"
+    restart: on-failure
+    command: ["npm", "run", "setup"]
+    volumes:
+      - ./db/:/app/db
+      - ./env.json:/app/.env.json
+      - ./log:/app/log

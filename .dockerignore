@@ -1,0 +1,6 @@
+Jenkinsfile
+test/run_test.sh
+test/internal
+db/wallet.db
+.env.json*
+.git

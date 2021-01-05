@@ -10,7 +10,7 @@
     "@sailshq/socket.io-redis": "^5.2.0",
     "async": "2.0.1",
     "await-to-js": "^2.1.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bigdecimal": "^0.6.1",
     "coti-encryption-library": "github:coti-io/coti-encryption-library#master",
     "grunt": "1.0.1",
